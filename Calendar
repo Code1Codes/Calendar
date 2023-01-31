@@ -16,10 +16,12 @@ public class Calendar extends javax.swing.JPanel {
 
     private int month;
     private int year;
+    
     public Calendar() {
         initComponents();
         thisMonth();
         slide.show(new PanelDate(0001, 2023), NewJPanel.AnimateType.TO_RIGHT );
+         Calendar.setBackground(Color. RED);
         showMonthYear();
 
         
