@@ -27,7 +27,7 @@ public class PopUp extends javax.swing.JFrame {
      */
     public PopUp(NewJFrame f) {
         this.newJFrame = f;
-        newJFrame.setBackground(Color.WHITE);
+        newJFrame.setBackground(Color.BLUE);
         initComponents();
     }
    
